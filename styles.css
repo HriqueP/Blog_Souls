@@ -1,0 +1,154 @@
+/* CONFIGURAÇÕES GLOBAIS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+body {
+  background: rgb(17, 17, 17);
+  color: #fff;
+}
+
+footer {
+  margin-top: 70px;
+  text-align: center;
+  color: #747474;
+  padding: 20px;
+}
+
+/* NAVBAR */
+#navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: rgb(0, 0, 0) 99.4%;
+  font-size: 1.125rem;
+}
+
+#navbar ul li a {
+  color: #fff;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+#navbar ul li a:hover {
+  color: #730000;
+}
+
+#img-icon {
+  width: 5rem;
+  height: 5rem;
+  object-fit: cover;
+}
+
+#navbar-list-links {
+  display: flex;
+  justify-content: space-around;
+  width: 75%;
+  padding: 0;
+  list-style: none;
+}
+
+/* HOME */
+.titulos {
+  margin-top: 80px;
+}
+
+#main-content-home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+  width: 80%;
+  min-width: 320px;
+  margin: 0 auto;
+  padding: 20px;
+  gap: 20px;
+}
+
+#img-characters {
+  max-width: 100%;
+}
+
+#disponibilidade {
+  text-align: center;
+  margin-top: 50px;
+}
+
+#table-disponibilidade {
+  min-width: 320px;
+  width: 100%;
+  text-align: center;
+}
+
+td,
+th {
+  padding: 10px;
+}
+
+tr:nth-child(even) {
+  background-color: #242424;
+}
+
+/* DEMON'S SOULS / DARK SOULS I, II, III / BLOODBORN*/
+.main-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+  width: 80%;
+  min-width: 320px;
+  margin: 0 auto;
+  padding: 20px;
+  gap: 20px;
+}
+
+.img-area {
+  width: 50%;
+  height: 400px;
+}
+
+.paragrafo1 {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.paragrafo2 {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.paragrafo3 {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.text-paragrafos {
+  font-size: 1.125rem;
+}
+
+.table-notas {
+  min-width: 320px;
+  width: 100%;
+  text-align: center;
+}
+
+.dlc {
+  text-align: center;
+  width: 50%;
+}
+
+.text-dlc-ds3 {
+  max-width: 65ch;
+}
+
+#img-dlc-bb {
+  width: 20%;
+}
